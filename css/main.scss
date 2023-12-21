@@ -11,3 +11,14 @@
   "neat/neat",
   "layout"
 ;
+
+
+.image-container {
+  display: flex;
+}
+
+/* Add styles for individual images */
+.image-container img {
+  width: 50%; /* Adjust the width as needed */
+  height: auto;
+}
