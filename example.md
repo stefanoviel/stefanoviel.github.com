@@ -2,6 +2,20 @@
 layout: default
 ---
 
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('path/to/your/image.jpg') no-repeat center center fixed; 
+      background-size: cover;
+    }
+  </style>
+</head>
+<body>
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
