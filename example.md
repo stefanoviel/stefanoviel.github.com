@@ -2,6 +2,21 @@
 layout: default
 ---
 
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fnature%2F&psig=AOvVaw3Phqq8r6fE6Puh4Vqj1OTN&ust=1703264067512000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIiBm57_oIMDFQAAAAAdAAAAABAE') no-repeat center center fixed; 
+      background-size: cover;
+    }
+  </style>
+</head>
+<body>
+
+  
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
