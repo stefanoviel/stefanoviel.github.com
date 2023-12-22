@@ -1,0 +1,24 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+// Includes Bourbon, Neat, and Bitters (thanks, thoughtbot!)
+@import
+  "bourbon/bourbon",
+  "base/base",
+  "neat/neat",
+  "layout"
+;
+
+
+.image-container {
+  display: flex;
+}
+
+/* Add styles for individual images */
+.image-container img {
+  width: 50%; /* Adjust the width as needed */
+  height: auto;
+}
