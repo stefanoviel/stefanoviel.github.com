@@ -6,7 +6,7 @@ require "jekyll"
 
 
 # Change your GitHub reponame
-GITHUB_REPONAME = "ixti/ixti.github.com"
+GITHUB_REPONAME = "oriolpascual9/ada-template-website"
 
 
 desc "Generate blog files"
