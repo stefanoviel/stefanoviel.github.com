@@ -1,30 +1,142 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Let&apos;s talk about movies</title>
+    <description>A simple yet classy theme for your Jekyll website or blog.
+</description>
+    <link>https://bencentra.com/centrarium//frame_by_frame/</link>
+    <atom:link href="https://bencentra.com/centrarium//frame_by_frame/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 22 Dec 2023 12:33:54 +0100</pubDate>
+    <lastBuildDate>Fri, 22 Dec 2023 12:33:54 +0100</lastBuildDate>
+    <generator>Jekyll v3.9.3</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape | truncatewords: 30 }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many...</description>
+        <pubDate>Mon, 20 Apr 2015 10:43:59 +0200</pubDate>
+        <link>https://bencentra.com/centrarium//frame_by_frame/jekyll/2015/04/20/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">https://bencentra.com/centrarium//frame_by_frame/jekyll/2015/04/20/welcome-to-jekyll.html</guid>
+        
+        <category>jekyll</category>
+        
+        <category>welcome</category>
+        
+        
+        <category>Jekyll</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Dummy Post 6</title>
+        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</description>
+        <pubDate>Sun, 19 Apr 2015 10:43:59 +0200</pubDate>
+        <link>https://bencentra.com/centrarium//frame_by_frame/dummy/2015/04/19/dummy6.html</link>
+        <guid isPermaLink="true">https://bencentra.com/centrarium//frame_by_frame/dummy/2015/04/19/dummy6.html</guid>
+        
+        <category>lorem</category>
+        
+        <category>ipsum</category>
+        
+        
+        <category>Dummy</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many...</description>
+        <pubDate>Sat, 18 Apr 2015 21:25:52 +0200</pubDate>
+        <link>https://bencentra.com/centrarium//frame_by_frame/jekyll/2015/04/18/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">https://bencentra.com/centrarium//frame_by_frame/jekyll/2015/04/18/welcome-to-jekyll.html</guid>
+        
+        <category>jekyll</category>
+        
+        <category>welcome</category>
+        
+        
+        <category>Jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>Dummy Post 6</title>
+        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</description>
+        <pubDate>Sat, 18 Apr 2015 21:25:52 +0200</pubDate>
+        <link>https://bencentra.com/centrarium//frame_by_frame/dummy/2015/04/18/dummy6.html</link>
+        <guid isPermaLink="true">https://bencentra.com/centrarium//frame_by_frame/dummy/2015/04/18/dummy6.html</guid>
+        
+        <category>lorem</category>
+        
+        <category>ipsum</category>
+        
+        
+        <category>Dummy</category>
+        
+      </item>
+    
+      <item>
+        <title>Dummy Post 5</title>
+        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</description>
+        <pubDate>Sat, 18 Apr 2015 21:25:52 +0200</pubDate>
+        <link>https://bencentra.com/centrarium//frame_by_frame/dummy/2015/04/18/dummy5.html</link>
+        <guid isPermaLink="true">https://bencentra.com/centrarium//frame_by_frame/dummy/2015/04/18/dummy5.html</guid>
+        
+        <category>lorem</category>
+        
+        
+        <category>Dummy</category>
+        
+      </item>
+    
+      <item>
+        <title>Dummy Post 4</title>
+        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</description>
+        <pubDate>Sat, 18 Apr 2015 21:25:52 +0200</pubDate>
+        <link>https://bencentra.com/centrarium//frame_by_frame/dummy/2015/04/18/dummy4.html</link>
+        <guid isPermaLink="true">https://bencentra.com/centrarium//frame_by_frame/dummy/2015/04/18/dummy4.html</guid>
+        
+        <category>ipsum</category>
+        
+        
+        <category>Dummy</category>
+        
+      </item>
+    
+      <item>
+        <title>Dummy Post 3</title>
+        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</description>
+        <pubDate>Sat, 18 Apr 2015 21:25:52 +0200</pubDate>
+        <link>https://bencentra.com/centrarium//frame_by_frame/dummy/2015/04/18/dummy3.html</link>
+        <guid isPermaLink="true">https://bencentra.com/centrarium//frame_by_frame/dummy/2015/04/18/dummy3.html</guid>
+        
+        
+        <category>Dummy</category>
+        
+      </item>
+    
+      <item>
+        <title>Dummy Post 2</title>
+        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</description>
+        <pubDate>Sat, 18 Apr 2015 21:25:52 +0200</pubDate>
+        <link>https://bencentra.com/centrarium//frame_by_frame/dummy/2015/04/18/dummy2.html</link>
+        <guid isPermaLink="true">https://bencentra.com/centrarium//frame_by_frame/dummy/2015/04/18/dummy2.html</guid>
+        
+        
+        <category>Dummy</category>
+        
+      </item>
+    
+      <item>
+        <title>Dummy Post</title>
+        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</description>
+        <pubDate>Sat, 18 Apr 2015 21:25:52 +0200</pubDate>
+        <link>https://bencentra.com/centrarium//frame_by_frame/dummy/2015/04/18/dummy.html</link>
+        <guid isPermaLink="true">https://bencentra.com/centrarium//frame_by_frame/dummy/2015/04/18/dummy.html</guid>
+        
+        
+        <category>Dummy</category>
+        
+      </item>
+    
   </channel>
 </rss>
